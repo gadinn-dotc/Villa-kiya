@@ -10,12 +10,12 @@ use Illuminate\Support\Facades\Hash;
 
 class AdminSeeder extends Seeder
 {
-public function run(): void
-{
-    User::create([
-        'username' => 'adminvillazaskiya',
-        'password' => Hash::make('password123'),
-    ]);
-}
+    public function run(): void
+    {
+        User::create([
+            'username' => 'adminvillazaskiya',
+            'password' => Hash::make('password123'),
+        ]);
+    }
 
 }
